@@ -1,16 +1,17 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       
+email:       trevorreiff@gmail.com
+author:      Trevor Reiff
+description: ""
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://localhost:4000"
+permalink:   "/:categories/:title/"
 
 # Google analytics
 google_analytics:
 
 # Optional features
-animated:           false
+animated:           true
 show_related_posts: false
 show_post_footers:  false
 
@@ -27,6 +28,5 @@ flattr_button:
 # Build settings
 markdown:     kramdown
 permalink:    pretty
-paginate:     3
 sass:
   compressed: true
