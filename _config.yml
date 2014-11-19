@@ -15,6 +15,7 @@ google_analytics:   UA-53078606-1
 animated:           true
 show_related_posts: false
 show_post_footers:  false
+excerpt_separator: ""
 
 # Social icons
 show_social_icons: true
@@ -27,6 +28,7 @@ paypal_url:
 flattr_button:
 
 # Build settings
+highlighter:  pygments
 markdown:     kramdown
 permalink:    pretty
 sass:
