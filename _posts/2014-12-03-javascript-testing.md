@@ -18,10 +18,10 @@ So, here you see the result of running the mocha tests.  I used mochas browser o
 
 So, you're probably wondering how to set it all up, that was the point of the post.  So here is how I did it. I am sure it’s not the only way but this worked for me. 
 
-clone or download the mochajs repo on github [here](https://github.com/mochajs/mocha).
-Create a spec folder in your projects root if you don’t already have one.  Copy the mocha.js and mocha.css files to the spec folder.
-visit the chaijs page [here](http://chaijs.com).  Where it says “download chai” click on browser, then click the download link.  Now you can just save the page to your spec directory.
-Create a new html file in your spec folder called “spec-runner.html”.  On the mocha homepage you’ll see a link in the documentation for “browser support” this will bring up a section of html that you can paste into your “spec-runner” file.
+* clone or download the mochajs repo on github [here](https://github.com/mochajs/mocha).
+* Create a spec folder in your projects root if you don’t already have one.  Copy the mocha.js and mocha.css files to the spec folder.
+* visit the chaijs page [here](http://chaijs.com).  Where it says “download chai” click on browser, then click the download link.  Now you can just save the page to your spec directory.
+* Create a new html file in your spec folder called “spec-runner.html”.  On the mocha homepage you’ll see a link in the documentation for “browser support” this will bring up a section of html that you can paste into your “spec-runner” file.
 
 Now, your pretty much setup except for a couple of things.  When I first tried this, i was getting errors because my spec-runner file wasnt setup properly.  Here is how I ultimately set mine up.
 
