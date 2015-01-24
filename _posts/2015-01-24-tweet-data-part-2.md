@@ -41,6 +41,8 @@ def scrub_date(hash)
 end
 {% endhighlight %}
 
-Thats about it, most of the graphs I used could take a hash as a parameter, which made displaying the data easy.  
+Thats about it, most of the graphs I used could take a hash as a parameter, which made displaying the data easy.  Heres what it looks like.
+
+![Screenshot]({{ site.url }}/images/graph2.png)
 
 In the end, this was a fun project with lots of opportunities to experiment and play around with new things.  I definitely learned a lot.  Check it out live here, [tweet data](https://tweetdata.herokuapp.com/).  Also, the repo is [here](https://github.com/treiff/t_api).  Keep in mind styling wasn't a priority with this project :) . 
