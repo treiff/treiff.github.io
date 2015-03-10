@@ -79,4 +79,4 @@ Also, my method there on line 47 with the custom URL, I am pretty sure it probab
 
 This project has been a lot of fun, practicing time boxing features knowing when to find help. I was able to build this fairly quickly and I realize if I never focused on the simple MVP, there still wouldn't be anything to show.  
 
-I was planning on writing a little about my nested forms, but I'll save that for next time. 
+I was planning on writing a little about my nested forms, but I'll save that for next time along with explaining some of my refactors.
