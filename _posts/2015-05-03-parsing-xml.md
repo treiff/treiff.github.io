@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Parsing XML"
-date:   2015-04-21 19:30:00
+date:   2015-05-03 20:14:00
 categories: blog
 comments: true
 ---
