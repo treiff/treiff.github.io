@@ -53,6 +53,3 @@ Okay, from here we have a simple conditional with the ```-z``` flag which will r
 And the results..
 
 ![Screenshot]({{ site.url }}/images/nx_restart.png)
-
-
-http://askubuntu.com/questions/153419/how-does-this-tricky-bracket-expression-in-grep-work
