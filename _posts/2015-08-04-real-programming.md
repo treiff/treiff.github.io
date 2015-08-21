@@ -6,7 +6,7 @@ categories: blog
 comments: true
 ---
 
-Okay, so this is going to be a fun post.  I really enjoy it when I write some code that does soemthing useful. I mean that's the whole point, but when sometimes our little CRUD operations and such can get stale.
+Okay, so this is going to be a fun post.  I really enjoy it when I write some code that does something useful. I mean that's the whole point, but when sometimes our little CRUD operations and such can get stale.
 
 That said, today I felt like a real programmer! Not sure exactly what that is, but you know most programmers like to solve real word problems and make things easier...Well today I accomplished these feats. I wrote my fist "useful" bash script.  I say useful because we've all written something that's echoed "Hello World" back to us.
 
