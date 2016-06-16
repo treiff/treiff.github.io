@@ -1,5 +1,5 @@
 # Site settings
-title:       Code Quest
+title:       Blog
 email:       trevorreiff@gmail.com
 author:      Trevor Reiff
 disqus_shortname: developerquest
@@ -21,7 +21,7 @@ excerpt_separator: ""
 show_social_icons: true
 github_username:   treiff 
 twitter_username:  tlreiff
-google_plus_id:    "101280832722709690426"
+google_plus_id:
 linkedin_username:
 bitcoin_url:
 paypal_url:
