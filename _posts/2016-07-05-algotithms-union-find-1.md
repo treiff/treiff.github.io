@@ -9,7 +9,7 @@ I've decided to spend some time and work on getting a better understanding of al
 
 I'm planning on doing a write up on most of the algorithms I'm learning, this helps me understand and keep the material fresh in my head, so stay tuned.
 
-###Union-Find (disjoint set)
+### Union-Find (disjoint set)
 
 Basically, I’m going to discuss three different variations of the union find algorithm. 
 
@@ -19,7 +19,7 @@ Basically, I’m going to discuss three different variations of the union find a
 
 I’ll try and point out the pros, cons and complexities of each.  All these variations will share two common methods, a `connected(p,q)` and a `union(p,q)` method, both of which take the array index of the nodes we’re comparing or uniting. Enough rambling, lets have a look.
 
-###Quick-Find
+### Quick-Find
 
 We’ll start with probably the simplest of the three, the quick-find.  Here is the class initializer which will initialize the object with `N+1` nodes.
 
