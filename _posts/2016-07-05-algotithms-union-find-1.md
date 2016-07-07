@@ -5,7 +5,9 @@ date:   2016-07-05 20:50:00
 categories: blog
 comments: true
 ---
-I've decided to spend some time and work on getting a better understanding of algorithms and system design.  Ultimately, I find the topic super interesting and think there are tremendous benefits to learning and applying these algorithms.  My foray begins with [courseras](https://www.coursera.org/) algorithms part I course from Princeton which so far has been amazing.
+I've decided to spend some time and work on getting a better understanding of algorithms and system design. I find the topic super interesting and think there are tremendous benefits to learning and applying these algorithms.  So, I begin my foray into algorithms with [courseras](https://www.coursera.org/) algorithms course from Princeton which so far has been amazing.
+
+I'm planning on doing a write up on most of the algorithms I'm learning, this helps me understand and keep the material fresh in my head, so stay tuned.
 
 ###Union-Find (disjoint set)
 
@@ -15,7 +17,7 @@ Basically, I’m going to discuss three different variations of the union find a
  * Quick-Union
  * Weighted Quick-Union (with path compression)
 
-I’ll try and point out the pros, cons and complexities of each.  All these variations will share two common methods, a `connected(p,q)` and a `union(p,q)` method, which take the array index of the nodes we’re comparing or uniting. Enough rambling, lets have a look.
+I’ll try and point out the pros, cons and complexities of each.  All these variations will share two common methods, a `connected(p,q)` and a `union(p,q)` method, both of which take the array index of the nodes we’re comparing or uniting. Enough rambling, lets have a look.
 
 ###Quick-Find
 
@@ -70,4 +72,7 @@ Moving on, we find the p and q’s values based on the passed in array index. Ne
 
 ![quickfind complete]({{ treiff.me }}/images/quick_find_complete.png)
 
-I'm sure your starting to notice the problem with this implementation, finds are quick O(1) array access, however every `union` command needs to iterate over the whole array O(n).
+I'm sure your starting to notice the problem with this implementation, finds are quick O(1) array access which is great, however every `union` command needs to iterate over the whole array replacing every node with a value of `p` with the value at `q` making this O(n).  This algorithm has the potential to be a `quadratic` or 
+run in O(n^2) time, assuming the `union` function costs `n` accesses and we have `n` `union` operations.
+
+Okay, that's about all i've got for now. I'll post a link to part II (quick-union and weighted quick-union) once I have it up.
