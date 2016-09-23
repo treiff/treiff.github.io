@@ -6,9 +6,9 @@ categories: blog
 comments: true
 ---
 
-##Here’s the problem
+## Here’s the problem
 
-###JRuby + Rspec + rvm + tmux = ¯\\_(ツ)_/¯
+### JRuby + Rspec + rvm + tmux = ¯\\_(ツ)_/¯
 
 Let me explain, we use `JRuby` and test with `Rspec`. Problem is, you can’t run `Rspec` in `JRuby` and we need to switch rvm over to `mri` to run the specs. 
 
@@ -20,7 +20,7 @@ At least a couple of time a day, I would find myself  running `rspec` only to ge
 
 This is because through my file shuffling etc, the shell I happen to be in at the time is still running `JRuby`.
 
-##The solution
+## The solution
 
 I wanted to be able to run something like `rspec spec/models/user_spec.rb` and if inadvertently in the wrong shell, automatically switch to the proper ruby and gemset and
 run the spec.
@@ -28,7 +28,7 @@ run the spec.
 So, what is happening when I run `rspec` in `JRuby`? Well, the system is looking for the executable `rspec` in the selected gem path.  In my case,
 `~/.rvm/gems/jruby-1.7.20.1@ne_profile/bin`. Why not add a `rspec` executable there? Actually, I'm sure there are reasons not to do this..(I did say hack right?).
 
-##Bash script
+## Bash script
 {% highlight bash %}
 #!/bin/bash
 
@@ -50,7 +50,7 @@ echo
 rspec $1 $2 $3
 {% endhighlight %}
 
-##The result
+## The result
 
 ![bash_result]({{ treiff.me }}/images/bash_result.png)
 
